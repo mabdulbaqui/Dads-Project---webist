@@ -1,0 +1,263 @@
+{
+  "global": {
+    "site_name": "Neon Color Egypt",
+    "company_name_ar": "نيون كلر",
+    "company_name_en": "Neon Color",
+    "og_image": "/assets/images/og-neon-color.jpg",
+    "og_image_width": "1200",
+    "og_image_height": "630",
+    "twitter_handle": "@neoncoloreg",
+    "twitter_card": "summary_large_image",
+    "locale_ar": "ar_EG",
+    "locale_en": "en_US",
+    "theme_color": "#b11226"
+  },
+  "pages": {
+    "home": {
+      "ar": {
+        "title": "نيون كلر | تنفيذ واجهات الكلادينج والكرتن وول في مصر - شركة دعاية وإعلان وديكور",
+        "description": "نيون كلر - شركة مصرية رائدة متخصصة في صناعة الحروف البارزة، تركيب الواجهات، الكلادينج، والدعاية والإعلان. خدمات احترافية في القاهرة وجميع أنحاء مصر منذ 2010",
+        "keywords": "نيون كلر، حروف بارزة، لافتات، دعاية واعلان، كلادينج، واجهات، ديكور محلات، تجهيز مستشفيات، حروف أكريليك، حروف استانلس، القاهرة، مصر",
+        "canonical": "https://neoncolor-eg.com/",
+        "og_title": "نيون كلر - رواد صناعة الحروف البارزة في مصر",
+        "og_description": "شركة مصرية رائدة في تصنيع الحروف البارزة، تركيب الواجهات، والخدمات الإعلانية منذ 2010"
+      },
+      "en": {
+        "title": "Neon Color | Advertising & Decoration Company Egypt - Embossed Letters",
+        "description": "Neon Color - Leading Egyptian company specializing in embossed letters manufacturing, facade installation, cladding, advertising and decoration. Professional services in Cairo and all over Egypt since 2010",
+        "keywords": "neon color, embossed letters, signage egypt, advertising decoration, cladding, facades, shop decoration, hospital signage, acrylic letters, stainless letters, Cairo, Egypt",
+        "canonical": "https://neoncolor-eg.com/en/",
+        "og_title": "Neon Color - Leading Embossed Letters Manufacturing in Egypt",
+        "og_description": "Egyptian company specializing in embossed letters, facade installation, and advertising services since 2010"
+      }
+    },
+    "services": {
+      "ar": {
+        "title": "خدماتنا | نيون كلر - حروف بارزة، واجهات، كلادينج، دعاية واعلان",
+        "description": "نقدم خدمات متكاملة: تركيب الواجهات والكلادينج، تصنيع الحروف البارزة (أكريليك، استانلس، نحاس)، الخدمات الإعلانية واللوحات الضوئية. جودة عالية والتزام بالمواعيد",
+        "keywords": "خدمات دعاية واعلان، تركيب واجهات، حروف بارزة، كلادينج، لوحات ضوئية، تجهيز محلات، لافتات مضيئة",
+        "canonical": "https://neoncolor-eg.com/services/",
+        "og_title": "خدماتنا - نيون كلر",
+        "og_description": "خدمات متكاملة في تركيب الواجهات، الحروف البارزة، والدعاية والإعلان"
+      },
+      "en": {
+        "title": "Our Services | Neon Color - Letters, Facades, Cladding, Advertising",
+        "description": "Comprehensive services: Facade & cladding installation, embossed letters manufacturing (acrylic, stainless, brass), advertising services and light boxes. High quality and on-time delivery",
+        "keywords": "advertising services, facade installation, embossed letters, cladding, light boxes, shop decoration, illuminated signage",
+        "canonical": "https://neoncolor-eg.com/en/services/",
+        "og_title": "Our Services - Neon Color",
+        "og_description": "Comprehensive services in facade installation, embossed letters, and advertising"
+      }
+    },
+    "service_facades": {
+      "ar": {
+        "title": "تركيب واجهات وكلادينج | نيون كلر - خامات متنوعة (أكريليك، استانلس، نحاس)",
+        "description": "تصميم وتنفيذ الواجهات الخارجية بجميع خاماتها: أكريليك، كلادينج، نحاس، ستانلس. معايير عالية في تكسية المباني والمنشآت. خبرة 14+ سنة في القاهرة ومصر",
+        "keywords": "تركيب واجهات، كلادينج، تكسية مباني، واجهات أكريليك، واجهات استانلس، واجهات نحاس، تصميم واجهات، واجهات محلات",
+        "canonical": "https://neoncolor-eg.com/services/facades/",
+        "og_title": "تركيب واجهات وكلادينج - نيون كلر",
+        "og_description": "تصميم وتنفيذ احترافي للواجهات بجميع الخامات"
+      },
+      "en": {
+        "title": "Facade & Cladding Installation | Neon Color - Multiple Materials",
+        "description": "Design and execution of external facades with all materials: Acrylic, Cladding, Brass, Stainless Steel. High standards in building cladding. 14+ years experience in Cairo and Egypt",
+        "keywords": "facade installation, cladding, building cladding, acrylic facades, stainless facades, brass facades, facade design, shop facades",
+        "canonical": "https://neoncolor-eg.com/en/services/facades/",
+        "og_title": "Facade & Cladding Installation - Neon Color",
+        "og_description": "Professional facade design and execution with all materials"
+      }
+    },
+    "service_letters": {
+      "ar": {
+        "title": "تركيب حروف بارزة ومضيئة | نيون كلر - أكريليك، استانلس، نحاس، ذهبي",
+        "description": "تصميم وتصنيع الحروف البارزة والمضيئة: حروف أكريليك، حروف استانلس، حروف استانلس ذهبي، حروف قماش. تنفيذ احترافي لجميع أنواع اللافتات في مصر",
+        "keywords": "حروف بارزة، حروف مضيئة، حروف أكريليك، حروف استانلس، حروف نحاس، لافتات محلات، لافتات مضيئة، حروف LED",
+        "canonical": "https://neoncolor-eg.com/services/letters/",
+        "og_title": "تركيب حروف بارزة ومضيئة - نيون كلر",
+        "og_description": "رواد صناعة الحروف البارزة في مصر بجميع الخامات"
+      },
+      "en": {
+        "title": "Embossed & Illuminated Letters | Neon Color - Acrylic, Stainless, Brass",
+        "description": "Design and manufacturing of embossed and illuminated letters: Acrylic letters, stainless steel letters, gold stainless letters, fabric letters. Professional execution of all signage types in Egypt",
+        "keywords": "embossed letters, illuminated letters, acrylic letters, stainless letters, brass letters, shop signage, LED letters, illuminated signage",
+        "canonical": "https://neoncolor-eg.com/en/services/letters/",
+        "og_title": "Embossed & Illuminated Letters - Neon Color",
+        "og_description": "Pioneers in embossed letters manufacturing in Egypt with all materials"
+      }
+    },
+    "service_advertising": {
+      "ar": {
+        "title": "خدمات إعلانية ولوحات ضوئية | نيون كلر - أفكار مبتكرة ومبدعة",
+        "description": "تخطيط وتنفيذ الحملات الإعلانية وتركيب اللوحات الضوئية بأفكار جديدة ومبتكرة. حلول دعائية متكاملة: بوكسات إعلانية، لوحات LED، لافتات نيون",
+        "keywords": "خدمات إعلانية، لوحات ضوئية، دعاية واعلان، حملات إعلانية، بوكسات إعلانية، لوحات LED، لافتات نيون",
+        "canonical": "https://neoncolor-eg.com/services/advertising/",
+        "og_title": "خدمات إعلانية ولوحات ضوئية - نيون كلر",
+        "og_description": "حلول إعلانية مبتكرة ولوحات ضوئية جذابة"
+      },
+      "en": {
+        "title": "Advertising Services & Light Boxes | Neon Color - Innovative Solutions",
+        "description": "Planning and execution of advertising campaigns and light box installation with innovative ideas. Complete advertising solutions: Advertising boxes, LED boards, neon signs",
+        "keywords": "advertising services, light boxes, advertising campaigns, illuminated ads, advertising boxes, LED boards, neon signs",
+        "canonical": "https://neoncolor-eg.com/en/services/advertising/",
+        "og_title": "Advertising Services & Light Boxes - Neon Color",
+        "og_description": "Innovative advertising solutions and attractive light boxes"
+      }
+    },
+    "projects": {
+      "ar": {
+        "title": "مشاريعنا | نيون كلر - معرض أعمال الحروف البارزة والواجهات",
+        "description": "شاهد معرض أعمالنا المنفذة في جميع أنحاء مصر: حروف بارزة، واجهات، كلادينج، لافتات إعلانية. أكثر من 500 مشروع ناجح منذ 2010",
+        "keywords": "مشاريع نيون كلر، معرض أعمال، حروف بارزة، واجهات منفذة، مشاريع دعاية واعلان",
+        "canonical": "https://neoncolor-eg.com/projects/",
+        "og_title": "مشاريعنا - نيون كلر",
+        "og_description": "معرض أعمالنا المنفذة في مصر - 500+ مشروع ناجح"
+      },
+      "en": {
+        "title": "Our Projects | Neon Color - Portfolio of Embossed Letters & Facades",
+        "description": "View our executed projects across Egypt: Embossed letters, facades, cladding, advertising signage. 500+ successful projects since 2010",
+        "keywords": "neon color projects, portfolio, embossed letters, executed facades, advertising projects",
+        "canonical": "https://neoncolor-eg.com/en/projects/",
+        "og_title": "Our Projects - Neon Color",
+        "og_description": "Portfolio of our executed projects in Egypt - 500+ successful projects"
+      }
+    },
+    "about": {
+      "ar": {
+        "title": "من نحن | نيون كلر - شركة دعاية واعلان رائدة في مصر منذ 2010",
+        "description": "نيون كلر شركة مصرية رائدة في القاهرة متخصصة في صناعة الحروف البارزة والكلادينج. 14+ سنة خبرة، 500+ مشروع، 300+ عميل راضي",
+        "keywords": "نيون كلر، من نحن، شركة دعاية واعلان، القاهرة، مصر، خبرة 14 سنة",
+        "canonical": "https://neoncolor-eg.com/about/",
+        "og_title": "من نحن - نيون كلر",
+        "og_description": "شركة مصرية رائدة في صناعة الحروف البارزة منذ 2010"
+      },
+      "en": {
+        "title": "About Us | Neon Color - Leading Advertising Company in Egypt Since 2010",
+        "description": "Neon Color is a leading Egyptian company in Cairo specializing in embossed letters and cladding manufacturing. 14+ years experience, 500+ projects, 300+ satisfied clients",
+        "keywords": "neon color, about us, advertising company, Cairo, Egypt, 14 years experience",
+        "canonical": "https://neoncolor-eg.com/en/about/",
+        "og_title": "About Us - Neon Color",
+        "og_description": "Leading Egyptian company in embossed letters manufacturing since 2010"
+      }
+    },
+    "contact": {
+      "ar": {
+        "title": "تواصل معنا | نيون كلر - القاهرة، مصر | واتساب، هاتف، عنوان",
+        "description": "تواصل مع نيون كلر للحصول على استشارة مجانية وعرض سعر. متاحون في القاهرة ونخدم جميع أنحاء مصر. السبت - الخميس 9ص - 6م",
+        "keywords": "تواصل نيون كلر، رقم تليفون، واتساب، عنوان، القاهرة، استشارة مجانية",
+        "canonical": "https://neoncolor-eg.com/contact/",
+        "og_title": "تواصل معنا - نيون كلر",
+        "og_description": "احصل على استشارة مجانية وعرض سعر الآن"
+      },
+      "en": {
+        "title": "Contact Us | Neon Color - Cairo, Egypt | WhatsApp, Phone, Address",
+        "description": "Contact Neon Color for free consultation and quote. Available in Cairo serving all over Egypt. Saturday - Thursday 9AM - 6PM",
+        "keywords": "contact neon color, phone number, whatsapp, address, Cairo, free consultation",
+        "canonical": "https://neoncolor-eg.com/en/contact/",
+        "og_title": "Contact Us - Neon Color",
+        "og_description": "Get free consultation and quote now"
+      }
+    }
+  },
+  "structured_data": {
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Neon Color",
+      "alternateName": "نيون كلر",
+      "url": "https://neoncolor-eg.com",
+      "logo": "https://neoncolor-eg.com/assets/images/logo/neon-color-logo.png",
+      "description": "Leading Egyptian company specializing in embossed letters manufacturing, facade installation, and advertising services",
+      "foundingDate": "2010",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+201145103777",
+        "contactType": "Customer Service",
+        "areaServed": "EG",
+        "availableLanguage": ["Arabic", "English"]
+      },
+      "sameAs": [
+        "https://facebook.com/neoncolor",
+        "https://instagram.com/neoncolor",
+        "https://tiktok.com/@neoncolor"
+      ]
+    },
+    "local_business": {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Neon Color",
+      "image": "https://neoncolor-eg.com/assets/images/logo/neon-color-logo.png",
+      "description": "Professional embossed letters, facade installation, and advertising services in Cairo, Egypt",
+      "@id": "https://neoncolor-eg.com",
+      "url": "https://neoncolor-eg.com",
+      "telephone": "+201145103777",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "90 Ahmed Orabi Street, Gezira, Mit Okba, Mohandessin",
+        "addressLocality": "Giza",
+        "addressRegion": "Giza",
+        "addressCountry": "EG"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "30.0543",
+        "longitude": "31.2065"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "150"
+      }
+    },
+    "services": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Facade Installation",
+        "provider": {
+          "@type": "Organization",
+          "name": "Neon Color"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Egypt"
+        },
+        "description": "Professional facade and cladding installation services using acrylic, stainless steel, brass materials"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Embossed Letters Manufacturing",
+        "provider": {
+          "@type": "Organization",
+          "name": "Neon Color"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Egypt"
+        },
+        "description": "Design and manufacturing of embossed and illuminated letters for signage"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Advertising Services",
+        "provider": {
+          "@type": "Organization",
+          "name": "Neon Color"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Egypt"
+        },
+        "description": "Complete advertising solutions including light boxes and illuminated signage"
+      }
+    ]
+  }
+}

@@ -1,0 +1,648 @@
+/* =====================================================
+   NEON COLOR - RTL STYLESHEET (Arabic)
+   Right-to-Left specific overrides
+   ===================================================== */
+
+/* Base RTL Direction - Applied when body has 'rtl' class */
+body.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+/* =====================================================
+   TYPOGRAPHY RTL
+   ===================================================== */
+body.rtl h1,
+body.rtl h2,
+body.rtl h3,
+body.rtl h4,
+body.rtl h5,
+body.rtl h6,
+body.rtl p,
+body.rtl span,
+body.rtl a,
+body.rtl li {
+  font-family: var(--font-ar);
+}
+
+/* =====================================================
+   HEADER & NAVIGATION RTL
+   ===================================================== */
+body.rtl .header-container {
+  flex-direction: row-reverse;
+}
+
+body.rtl .nav {
+  flex-direction: row-reverse;
+}
+
+body.rtl .nav-list {
+  flex-direction: row-reverse;
+}
+
+body.rtl .nav-link::after {
+  left: auto;
+  right: 0;
+}
+
+/* Mobile Navigation RTL */
+@media (max-width: 768px) {
+  body.rtl .nav {
+    flex-direction: column;
+  }
+  
+  body.rtl .nav-list {
+    flex-direction: column;
+  }
+}
+
+/* =====================================================
+   HERO SECTION RTL
+   ===================================================== */
+body.rtl .hero-container {
+  direction: rtl;
+}
+
+body.rtl .hero-content {
+  text-align: right;
+}
+
+body.rtl .hero-cta {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+@media (max-width: 992px) {
+  body.rtl .hero-content {
+    text-align: center;
+  }
+  
+  body.rtl .hero-cta {
+    justify-content: center;
+  }
+}
+
+/* =====================================================
+   BUTTONS RTL
+   ===================================================== */
+body.rtl .btn {
+  flex-direction: row-reverse;
+}
+
+body.rtl .btn svg {
+  transform: scaleX(-1);
+}
+
+/* =====================================================
+   CARDS & SERVICES RTL
+   ===================================================== */
+body.rtl .service-card {
+  text-align: center;
+}
+
+body.rtl .service-features {
+  text-align: right;
+}
+
+body.rtl .service-features li {
+  padding-left: 0;
+  padding-right: 1.75rem;
+}
+
+body.rtl .service-features li::before {
+  left: auto;
+  right: 0;
+}
+
+/* =====================================================
+   PROJECTS SECTION RTL
+   ===================================================== */
+body.rtl .project-overlay {
+  text-align: right;
+}
+
+body.rtl .projects-filter {
+  flex-direction: row-reverse;
+}
+
+/* =====================================================
+   ABOUT SECTION RTL
+   ===================================================== */
+body.rtl .about-container {
+  direction: rtl;
+}
+
+body.rtl .about-content {
+  text-align: right;
+}
+
+/* =====================================================
+   CONTACT SECTION RTL
+   ===================================================== */
+body.rtl .contact-container {
+  direction: rtl;
+}
+
+body.rtl .contact-item {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+body.rtl .contact-text {
+  text-align: right;
+}
+
+body.rtl .form-input,
+body.rtl .form-textarea,
+body.rtl .form-select {
+  text-align: right;
+  direction: rtl;
+}
+
+/* =====================================================
+   FOOTER RTL
+   ===================================================== */
+body.rtl .footer-grid {
+  direction: rtl;
+}
+
+body.rtl .footer-brand {
+  text-align: right;
+}
+
+body.rtl .footer-links {
+  text-align: right;
+}
+
+body.rtl .social-links {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  body.rtl .footer-brand,
+  body.rtl .footer-links {
+    text-align: center;
+  }
+  
+  body.rtl .social-links {
+    justify-content: center;
+  }
+}
+
+/* =====================================================
+   FLOATING BUTTONS RTL
+   ===================================================== */
+body.rtl .whatsapp-float {
+  right: auto;
+  left: 30px;
+  flex-direction: row-reverse;
+}
+
+body.rtl .call-float {
+  right: auto;
+  left: 20px;
+}
+
+@media (max-width: 768px) {
+  body.rtl .whatsapp-float {
+    left: 20px;
+  }
+}
+
+/* =====================================================
+   FLEX UTILITIES RTL
+   ===================================================== */
+body.rtl .flex-row {
+  flex-direction: row-reverse;
+}
+
+body.rtl .justify-start {
+  justify-content: flex-end;
+}
+
+body.rtl .justify-end {
+  justify-content: flex-start;
+}
+
+/* =====================================================
+   ICONS RTL - Mirror horizontal icons
+   ===================================================== */
+body.rtl .icon-arrow,
+body.rtl .icon-chevron {
+  transform: scaleX(-1);
+}
+
+/* =====================================================
+   FORM ELEMENTS RTL
+   ===================================================== */
+body.rtl input[type="text"],
+body.rtl input[type="email"],
+body.rtl input[type="tel"],
+body.rtl input[type="number"],
+body.rtl textarea,
+body.rtl select {
+  text-align: right;
+  padding-right: var(--space-md);
+  padding-left: var(--space-md);
+}
+
+body.rtl input::placeholder,
+body.rtl textarea::placeholder {
+  text-align: right;
+}
+
+/* =====================================================
+   LISTS RTL
+   ===================================================== */
+body.rtl ul,
+body.rtl ol {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+body.rtl li {
+  text-align: right;
+}
+
+/* =====================================================
+   STATS GRID RTL
+   ===================================================== */
+body.rtl .stats-grid {
+  direction: rtl;
+}
+
+body.rtl .stat-item {
+  text-align: center;
+}
+
+/* =====================================================
+   SECTION HEADERS RTL
+   ===================================================== */
+body.rtl .section-header {
+  text-align: center;
+}
+
+/* =====================================================
+   ANIMATIONS RTL - Adjust movement directions
+   ===================================================== */
+@keyframes floatRTL {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(100px, -100px); }
+}
+
+body.rtl .hero::before {
+  animation: floatRTL 20s linear infinite;
+}
+
+/* =====================================================
+   SCROLLBAR RTL
+   ===================================================== */
+body.rtl::-webkit-scrollbar {
+  width: 10px;
+}
+
+body.rtl::-webkit-scrollbar-track {
+  background: var(--light-gray);
+}
+
+body.rtl::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  border-radius: var(--radius-full);
+}
+
+body.rtl::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* =====================================================
+   MOBILE MENU RTL
+   ===================================================== */
+body.rtl .mobile-menu-btn {
+  order: -1;
+}
+
+@media (max-width: 768px) {
+  body.rtl .nav {
+    text-align: center;
+  }
+}
+
+/* =====================================================
+   LANGUAGE SWITCHER RTL
+   ===================================================== */
+body.rtl .lang-switcher {
+  flex-direction: row-reverse;
+}
+
+/* =====================================================
+   GRID LAYOUTS RTL
+   ===================================================== */
+body.rtl .grid {
+  direction: rtl;
+}
+
+body.rtl .services-grid,
+body.rtl .projects-grid {
+  direction: rtl;
+}
+
+/* =====================================================
+   CONTACT INFO RTL
+   ===================================================== */
+body.rtl .contact-info {
+  direction: rtl;
+}
+
+/* Phone numbers should remain LTR for proper display */
+body.rtl .phone-number,
+body.rtl [dir="ltr"] {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+/* Email addresses should remain LTR */
+body.rtl .email-link {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+/* =====================================================
+   LTR STYLESHEET (English)
+   Left-to-Right specific styles
+   ===================================================== */
+
+/* Base LTR Direction - Applied when body has 'ltr' class */
+body.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Typography for English */
+body.ltr,
+body.lang-en {
+  font-family: var(--font-en);
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+body.ltr h1,
+body.ltr h2,
+body.ltr h3,
+body.ltr h4,
+body.ltr h5,
+body.ltr h6 {
+  font-family: var(--font-en);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+body.ltr p,
+body.ltr span,
+body.ltr a,
+body.ltr li {
+  font-family: var(--font-en);
+}
+
+/* Header & Navigation LTR */
+body.ltr .header-container {
+  flex-direction: row;
+}
+
+body.ltr .nav {
+  flex-direction: row;
+}
+
+body.ltr .nav-list {
+  flex-direction: row;
+}
+
+body.ltr .nav-link::after {
+  left: 0;
+  right: auto;
+}
+
+/* Hero Section LTR */
+body.ltr .hero-container {
+  direction: ltr;
+}
+
+body.ltr .hero-content {
+  text-align: left;
+}
+
+body.ltr .hero-cta {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+@media (max-width: 992px) {
+  body.ltr .hero-content {
+    text-align: center;
+  }
+  
+  body.ltr .hero-cta {
+    justify-content: center;
+  }
+}
+
+/* Buttons LTR */
+body.ltr .btn {
+  flex-direction: row;
+}
+
+body.ltr .btn svg {
+  transform: none;
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+/* Cards & Services LTR */
+body.ltr .service-card {
+  text-align: center;
+}
+
+body.ltr .service-features {
+  text-align: left;
+}
+
+body.ltr .service-features li {
+  padding-left: 1.75rem;
+  padding-right: 0;
+}
+
+body.ltr .service-features li::before {
+  left: 0;
+  right: auto;
+}
+
+/* Projects Section LTR */
+body.ltr .project-overlay {
+  text-align: left;
+}
+
+body.ltr .projects-filter {
+  flex-direction: row;
+}
+
+/* About Section LTR */
+body.ltr .about-container {
+  direction: ltr;
+}
+
+body.ltr .about-content {
+  text-align: left;
+}
+
+/* Contact Section LTR */
+body.ltr .contact-container {
+  direction: ltr;
+}
+
+body.ltr .contact-item {
+  flex-direction: row;
+  text-align: left;
+}
+
+body.ltr .contact-text {
+  text-align: left;
+}
+
+body.ltr .form-input,
+body.ltr .form-textarea,
+body.ltr .form-select {
+  text-align: left;
+  direction: ltr;
+}
+
+/* Footer LTR */
+body.ltr .footer-grid {
+  direction: ltr;
+}
+
+body.ltr .footer-brand {
+  text-align: left;
+}
+
+body.ltr .footer-links {
+  text-align: left;
+}
+
+body.ltr .social-links {
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  body.ltr .footer-brand,
+  body.ltr .footer-links {
+    text-align: center;
+  }
+  
+  body.ltr .social-links {
+    justify-content: center;
+  }
+}
+
+/* Floating Buttons LTR */
+body.ltr .whatsapp-float {
+  right: 30px;
+  left: auto;
+  flex-direction: row;
+}
+
+body.ltr .call-float {
+  right: 20px;
+  left: auto;
+}
+
+/* Form Elements LTR */
+body.ltr input[type="text"],
+body.ltr input[type="email"],
+body.ltr input[type="tel"],
+body.ltr input[type="number"],
+body.ltr textarea,
+body.ltr select {
+  text-align: left;
+  padding-left: var(--space-md);
+}
+
+body.ltr input::placeholder,
+body.ltr textarea::placeholder {
+  text-align: left;
+}
+
+/* Stats Grid LTR */
+body.ltr .stats-grid {
+  direction: ltr;
+}
+
+/* Section Headers LTR */
+body.ltr .section-header {
+  text-align: center;
+}
+
+/* Grids LTR */
+body.ltr .grid,
+body.ltr .services-grid,
+body.ltr .projects-grid {
+  direction: ltr;
+}
+
+/* Contact Info LTR */
+body.ltr .contact-info {
+  direction: ltr;
+}
+
+/* =====================================================
+   LANGUAGE TRANSITION EFFECTS
+   ===================================================== */
+   
+/* Smooth transition when switching languages */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: direction 0s, text-align 0.2s ease;
+}
+
+.hero-title,
+.section-title,
+.contact-item,
+.service-card,
+.btn {
+  transition: transform 0.2s ease;
+}
+
+/* =====================================================
+   RESPONSIVE LANGUAGE ADJUSTMENTS
+   ===================================================== */
+
+@media (max-width: 768px) {
+  body.ltr .mobile-menu-btn {
+    order: 0;
+  }
+  
+  body.ltr .nav {
+    text-align: center;
+  }
+  
+  body.ltr .whatsapp-float {
+    right: 20px;
+  }
+}
+
+/* Ensure phone numbers and emails always display correctly */
+.phone-number,
+.email-link,
+[dir="ltr"] {
+  direction: ltr;
+  unicode-bidi: embed;
+  text-align: left;
+}
+
+/* Address can be multi-line and should respect current direction */
+#contact-address {
+  white-space: pre-line;
+  line-height: 1.6;
+}
+

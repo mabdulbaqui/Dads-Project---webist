@@ -1,0 +1,122 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": {
+        "ar": "لافتة مستشفى الشفاء",
+        "en": "Al-Shifa Hospital Signage"
+      },
+      "description": {
+        "ar": "تصميم وتنفيذ لافتات خارجية وداخلية بالإضاءة LED مع نظام إرشادي متكامل للمستشفى",
+        "en": "Complete LED signage solution with wayfinding system for the hospital"
+      },
+      "category": "hospital",
+      "images": [
+        "assets/images/projects/hospital-1.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": {
+        "ar": "واجهة محلات الأندلس مول",
+        "en": "Andalus Mall Retail Facade"
+      },
+      "description": {
+        "ar": "تصميم وتنفيذ واجهات محلات تجارية بحروف بارزة أكريليك مضيئة",
+        "en": "Retail storefront design with illuminated acrylic 3D letters"
+      },
+      "category": "retail",
+      "images": [
+        "assets/images/projects/retail-1.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": {
+        "ar": "لافتة خارجية - بنك مصر",
+        "en": "Outdoor Signage - Banque Misr"
+      },
+      "description": {
+        "ar": "لافتة خارجية عملاقة بإضاءة LED عالية السطوع مقاومة للعوامل الجوية",
+        "en": "Large outdoor LED signage with high brightness and weather resistance"
+      },
+      "category": "outdoor",
+      "images": [
+        "assets/images/projects/outdoor-1.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": {
+        "ar": "ديكور داخلي - مطعم الكرم",
+        "en": "Interior Decoration - Al Karam Restaurant"
+      },
+      "description": {
+        "ar": "تصميم وتنفيذ ديكور داخلي متكامل للمطعم مع إضاءة ديكورية",
+        "en": "Complete interior decoration design with decorative lighting"
+      },
+      "category": "indoor",
+      "images": [
+        "assets/images/projects/indoor-1.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": 5,
+      "title": {
+        "ar": "تجهيز صيدلية الدواء",
+        "en": "Al-Dawaa Pharmacy Fit-out"
+      },
+      "description": {
+        "ar": "تجهيز كامل للصيدلية من رفوف وديكور ولافتات داخلية وخارجية",
+        "en": "Complete pharmacy fit-out including shelving, decoration, and signage"
+      },
+      "category": "retail",
+      "images": [
+        "assets/images/projects/pharmacy-1.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": {
+        "ar": "حروف بارزة ستانلس ستيل",
+        "en": "Stainless Steel 3D Letters"
+      },
+      "description": {
+        "ar": "تصنيع وتركيب حروف بارزة من الستانلس ستيل المصقول لواجهة شركة",
+        "en": "Fabrication and installation of polished stainless steel 3D letters"
+      },
+      "category": "outdoor",
+      "images": [
+        "assets/images/projects/letters-1.jpg"
+      ],
+      "featured": false
+    }
+  ],
+  "categories": {
+    "all": {
+      "ar": "الكل",
+      "en": "All"
+    },
+    "hospital": {
+      "ar": "مستشفيات",
+      "en": "Hospitals"
+    },
+    "retail": {
+      "ar": "محلات تجارية",
+      "en": "Retail"
+    },
+    "outdoor": {
+      "ar": "لافتات خارجية",
+      "en": "Outdoor"
+    },
+    "indoor": {
+      "ar": "ديكور داخلي",
+      "en": "Indoor"
+    }
+  }
+}

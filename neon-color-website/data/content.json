@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "last_updated": "2024-02-07",
+    "version": "1.0",
+    "company": "Neon Color Egypt"
+  },
+  "hero": {
+    "ar": {
+      "headline": "نيون كلر | خبراء تصميم وتنفيذ واجهات الكلادينج الحديثة في مصر",
+      "subheadline": "شركة مصرية رائدة متخصصة في الدعاية والإعلان والديكور منذ 2010",
+      "description": "نتخصص في المجال الهندسي وريادة في صناعة الحروف البارزة وجميع أعمال الكلادينج",
+      "cta_primary": "احصل على استشارة مجانية",
+      "cta_secondary": "شاهد أعمالنا"
+    },
+    "en": {
+      "headline": "Neon Color - Leading Embossed Letters Manufacturing in Egypt",
+      "subheadline": "Egyptian company specializing in advertising, decoration and engineering since 2010",
+      "description": "Specializing in engineering field, leading in embossed letters manufacturing and cladding works",
+      "cta_primary": "Get Free Consultation",
+      "cta_secondary": "View Our Work"
+    }
+  },
+  "about": {
+    "ar": {
+      "title": "من نحن",
+      "content": "شركة مصرية متواجدة في مدينة القاهرة - جمهورية مصر العربية متخصصة في المجال الهندسي وريادة في صناعة الحروف البارزة وجميع أعمال الكلادينج. اشتهرت بتنفيذ المشاريع الكبرى في جميع أنحاء جمهورية مصر العربية وتكسية واجهات المباني والمنشآت بألوان الكلادينج ورأسها اليد الأولى في التصنيع. نسعى دائماً لتقديم أعلى معايير الدقة التي تلبي توقعات كل عملائنا.",
+      "mission": "تقديم أعلى معايير الدقة والجودة في صناعة الحروف البارزة وتكسية الواجهات",
+      "vision": "أن نكون الشركة الرائدة في مجال الدعاية والإعلان والديكور في مصر والشرق الأوسط",
+      "values": [
+        "الجودة والدقة في التنفيذ",
+        "الالتزام بالمواعيد",
+        "استخدام خامات أصلية",
+        "رضا العملاء أولويتنا"
+      ]
+    },
+    "en": {
+      "title": "About Us",
+      "content": "Neon Color is a leading Egyptian company located in Cairo city - EGYPT, specializing in engineering field, leading in the manufacture of embossed letters and cladding plates. It is famous for executing major projects all over Egypt and for being the first hand in manufacturing. We always strive to provide the highest standards of accuracy that meet the expectations of all our customers.",
+      "mission": "Providing highest standards of accuracy and quality in embossed letters manufacturing and facade cladding",
+      "vision": "To be the leading company in advertising, decoration and engineering in Egypt and Middle East",
+      "values": [
+        "Quality and precision in execution",
+        "Commitment to deadlines",
+        "Using original materials",
+        "Customer satisfaction is our priority"
+      ]
+    }
+  },
+  "stats": {
+    "years_experience": {
+      "value": "14+",
+      "label_ar": "سنة من الخبرة",
+      "label_en": "Years of Experience"
+    },
+    "projects_completed": {
+      "value": "500+",
+      "label_ar": "مشروع منفذ",
+      "label_en": "Projects Completed"
+    },
+    "clients_served": {
+      "value": "300+",
+      "label_ar": "عميل راضي",
+      "label_en": "Satisfied Clients"
+    },
+    "cities_covered": {
+      "value": "20+",
+      "label_ar": "مدينة في مصر",
+      "label_en": "Cities in Egypt"
+    }
+  },
+  "services_overview": {
+    "ar": {
+      "title": "مجال العمل والخدمات",
+      "subtitle": "نقدم حلولاً متكاملة في مجال الدعاية والإعلان والديكور",
+      "cta": "اعرف المزيد عن خدماتنا"
+    },
+    "en": {
+      "title": "Scope of Work & Services",
+      "subtitle": "We provide comprehensive solutions in advertising, decoration and engineering",
+      "cta": "Learn More About Our Services"
+    }
+  },
+  "projects_overview": {
+    "ar": {
+      "title": "أعمالنا",
+      "subtitle": "نماذج من مشاريعنا المميزة"
+    },
+    "en": {
+      "title": "Our Projects",
+      "subtitle": "Examples of our distinguished projects"
+    }
+  },
+  "contact_section": {
+    "ar": {
+      "title": "تواصل معنا",
+      "subtitle": "نحن هنا لمساعدتك. تواصل معنا الآن"
+    },
+    "en": {
+      "title": "Contact Us",
+      "subtitle": "We're here to help. Contact us now"
+    }
+  },
+  "hero_badge": {
+    "ar": "🏆 +14 سنة خبرة",
+    "en": "🏆 14+ Years Experience"
+  },
+  "why_choose_us": {
+    "ar": {
+      "title": "لماذا نيون كلر؟",
+      "reasons": [
+        {
+          "title": "خبرة واسعة",
+          "description": "أكثر من 14 عاماً من الخبرة في تنفيذ المشاريع الكبرى",
+          "icon": "⭐"
+        },
+        {
+          "title": "جودة عالية",
+          "description": "نستخدم أفضل الخامات ونلتزم بأعلى معايير الجودة",
+          "icon": "✓"
+        },
+        {
+          "title": "التزام بالمواعيد",
+          "description": "نحرص على تسليم مشاريعنا في المواعيد المحددة",
+          "icon": "⏰"
+        },
+        {
+          "title": "فريق محترف",
+          "description": "فريق عمل مدرب ومتخصص في جميع مجالات التنفيذ",
+          "icon": "👥"
+        }
+      ]
+    },
+    "en": {
+      "title": "Why Neon Color?",
+      "reasons": [
+        {
+          "title": "Extensive Experience",
+          "description": "Over 14 years of experience in executing major projects",
+          "icon": "⭐"
+        },
+        {
+          "title": "High Quality",
+          "description": "We use the best materials and adhere to highest quality standards",
+          "icon": "✓"
+        },
+        {
+          "title": "On-Time Delivery",
+          "description": "We ensure project delivery within specified deadlines",
+          "icon": "⏰"
+        },
+        {
+          "title": "Professional Team",
+          "description": "Trained and specialized team in all execution fields",
+          "icon": "👥"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "whatsapp": "+201145103777",
+    "phone": "01145103777",
+    "phone_alt": "",
+    "email": "info@neoncolor-eg.com",
+    "address": {
+      "ar": "الشركة: ٩٠ شارع أحمد عرابي جزيرة ميت عقبة، المهندسين - الجيزة\nالمصنع: ١٠ شارع ١٠ مايو برج فودافون بجوار شركة نوبل واكس - شبرا الخيمة",
+      "en": "Company: 90 Ahmed Orabi St, Gezira, Mit Okba, Mohandessin – Giza\nFactory: 10 May 10th St, Vodafone Tower, next to Noble Wax Co – Shubra El Kheima",
+      "full_ar": "الشركة: ٩٠ شارع أحمد عرابي جزيرة ميت عقبة، المهندسين - الجيزة\nالمصنع: ١٠ شارع ١٠ مايو برج فودافون بجوار شركة نوبل واكس - شبرا الخيمة",
+      "full_en": "Company: 90 Ahmed Orabi St, Gezira, Mit Okba, Mohandessin – Giza\nFactory: 10 May 10th St, Vodafone Tower, next to Noble Wax Co – Shubra El Kheima"
+    },
+    "working_hours": {
+      "ar": "السبت - الخميس: 9 صباحاً - 6 مساءً",
+      "en": "Saturday - Thursday: 9 AM - 6 PM"
+    },
+    "google_maps": "https://maps.google.com/?q=30.0543,31.2065"
+  },
+  "social": {
+    "facebook": "https://facebook.com/neoncolor",
+    "instagram": "https://instagram.com/neoncolor",
+    "tiktok": "https://tiktok.com/@neoncolor",
+    "youtube": "https://youtube.com/@neoncolor",
+    "linkedin": "https://linkedin.com/company/neoncolor"
+  },
+  "cta_sections": {
+    "quote_request": {
+      "ar": {
+        "title": "احصل على عرض سعر مجاني",
+        "description": "تواصل معنا الآن واحصل على استشارة مجانية لمشروعك",
+        "button": "اطلب عرض سعر"
+      },
+      "en": {
+        "title": "Get a Free Quote",
+        "description": "Contact us now and get free consultation for your project",
+        "button": "Request Quote"
+      }
+    },
+    "whatsapp_cta": {
+      "ar": {
+        "title": "تواصل معنا عبر واتساب",
+        "button": "راسلنا على واتساب"
+      },
+      "en": {
+        "title": "Contact Us via WhatsApp",
+        "button": "Message on WhatsApp"
+      }
+    }
+  },
+  "footer": {
+    "ar": {
+      "tagline": "نيون كلر - الدعاية والإعلان",
+      "copyright": "© 2024 نيون كلر. جميع الحقوق محفوظة.",
+      "quick_links_title": "روابط سريعة",
+      "services_title": "خدماتنا",
+      "contact_title": "تواصل معنا"
+    },
+    "en": {
+      "tagline": "Neon Color - Advertising & Decoration",
+      "copyright": "© 2024 Neon Color. All rights reserved.",
+      "quick_links_title": "Quick Links",
+      "services_title": "Our Services",
+      "contact_title": "Contact Us"
+    }
+  }
+}
