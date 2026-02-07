@@ -114,21 +114,55 @@ const ContentLoader = {
    */
   renderHero() {
     if (!this.content?.hero) return;
-    
+
     const hero = this.localize(this.content.hero);
-    
+    const heroBadge = this.localize(this.content.hero_badge);
+    const heroStats = this.content.hero_stats;
+
+    // Update badge text
+    const badgeText = document.getElementById('hero-badge-text');
+    if (badgeText) badgeText.textContent = heroBadge || hero.badge || '';
+
+    // Update multi-line headline
     const headline = document.getElementById('hero-headline');
-    if (headline) headline.textContent = hero.headline || '';
-    
+    if (headline) {
+      const accentSpan = headline.querySelector('.hero-title-accent');
+      const mainSpan = headline.querySelector('.hero-title-main');
+      const locationSpan = headline.querySelector('.hero-title-location');
+
+      if (accentSpan) accentSpan.textContent = hero.headline_accent || '';
+      if (mainSpan) mainSpan.textContent = hero.headline_main || '';
+      if (locationSpan) locationSpan.textContent = hero.headline_location || '';
+    }
+
+    // Update subtitle
     const subheadline = document.getElementById('hero-subheadline');
     if (subheadline) subheadline.textContent = hero.subheadline || hero.description || '';
-    
-    const ctaBtn = document.getElementById('hero-cta');
-    if (ctaBtn) ctaBtn.textContent = hero.cta_primary || '';
-    
-    // Update secondary CTA if exists
+
+    // Update primary CTA
+    const ctaPrimary = document.getElementById('hero-cta-primary');
+    if (ctaPrimary) {
+      const ctaSpan = ctaPrimary.querySelector('span');
+      if (ctaSpan) ctaSpan.textContent = hero.cta_primary || '';
+    }
+
+    // Update secondary CTA
     const ctaSecondary = document.getElementById('hero-cta-secondary');
-    if (ctaSecondary) ctaSecondary.textContent = hero.cta_secondary || '';
+    if (ctaSecondary) {
+      const ctaSpan = ctaSecondary.querySelector('span');
+      if (ctaSpan) ctaSpan.textContent = hero.cta_secondary || '';
+    }
+
+    // Update trust indicator labels
+    if (heroStats) {
+      const projectsLabel = document.querySelector('.trust-item [data-i18n="stats.projects"]');
+      const clientsLabel = document.querySelector('.trust-item [data-i18n="stats.clients"]');
+      const citiesLabel = document.querySelector('.trust-item [data-i18n="stats.cities"]');
+
+      if (projectsLabel) projectsLabel.textContent = this.localize(heroStats.projects) || '';
+      if (clientsLabel) clientsLabel.textContent = this.localize(heroStats.clients) || '';
+      if (citiesLabel) citiesLabel.textContent = this.localize(heroStats.cities) || '';
+    }
   },
   
   /**

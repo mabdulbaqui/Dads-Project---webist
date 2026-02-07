@@ -161,69 +161,63 @@
          HERO SECTION
          ===================================================== -->
       <section id="hero" class="hero section">
+        <!-- Background Image Overlay -->
+        <div class="hero-bg-image" aria-hidden="true"></div>
+
         <div class="container hero-container">
           <div class="hero-content">
-            <span class="hero-badge">🏆 +14 سنة خبرة</span>
+            <!-- Trust Badge -->
+            <div class="hero-badge">
+              <span class="hero-badge-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                </svg>
+              </span>
+              <span id="hero-badge-text">+14 سنة من الخبرة والإنجاز</span>
+            </div>
+
+            <!-- Main Headline -->
             <h1 id="hero-headline" class="hero-title">
-              نيون كلر  خبراء تصميم وتنفيذ واجهات الكلادينج الحديثة في مصر 
+              <span class="hero-title-accent">خبراء تصميم وتنفيذ</span>
+              <span class="hero-title-main">واجهات الكلادينج الحديثة</span>
+              <span class="hero-title-location">في مصر</span>
             </h1>
+
+            <!-- Subtitle -->
             <p id="hero-subheadline" class="hero-subtitle">
-              شركة مصرية رائدة متخصصة في الدعاية والإعلان والديكور منذ 2010
+              نفذنا أكثر من 500 مشروع تجاري وسكني بأعلى معايير الجودة والدقة الهندسية
             </p>
+
+            <!-- CTA Buttons -->
             <div class="hero-cta">
-              <a href="#contact" id="hero-cta" class="btn btn-white btn-lg">
-                احصل على استشارة مجانية
-              </a>
-              <a
-                href="#services"
-                class="btn btn-secondary btn-lg"
-                style="border-color: white; color: white"
-              >
-                <span data-nav="services">خدماتنا</span>
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
+              <a href="#contact" id="hero-cta-primary" class="btn btn-hero-primary btn-lg">
+                <span>احصل على استشارة مجانية</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
               </a>
+              <a href="#services" id="hero-cta-secondary" class="btn btn-hero-outline btn-lg">
+                <span data-nav="services">خدماتنا</span>
+              </a>
             </div>
-          </div>
-          <div class="hero-image">
-            <svg
-              viewBox="0 0 400 400"
-              width="400"
-              height="400"
-              aria-hidden="true"
-            >
-              <!-- Decorative SVG -->
-              <circle cx="200" cy="200" r="150" fill="rgba(255,255,255,0.1)" />
-              <circle cx="200" cy="200" r="120" fill="rgba(255,255,255,0.1)" />
-              <circle cx="200" cy="200" r="90" fill="rgba(255,255,255,0.15)" />
-              <text
-                x="200"
-                y="180"
-                font-size="60"
-                fill="white"
-                text-anchor="middle"
-                font-weight="bold"
-              >
-                نيون
-              </text>
-              <text
-                x="200"
-                y="240"
-                font-size="40"
-                fill="rgba(255,255,255,0.8)"
-                text-anchor="middle"
-              >
-                كولر
-              </text>
-            </svg>
+
+            <!-- Trust Indicators -->
+            <div class="hero-trust-indicators">
+              <div class="trust-item">
+                <span class="trust-value">500+</span>
+                <span class="trust-label" data-i18n="stats.projects">مشروع منفذ</span>
+              </div>
+              <div class="trust-divider"></div>
+              <div class="trust-item">
+                <span class="trust-value">300+</span>
+                <span class="trust-label" data-i18n="stats.clients">عميل راضي</span>
+              </div>
+              <div class="trust-divider"></div>
+              <div class="trust-item">
+                <span class="trust-value">20+</span>
+                <span class="trust-label" data-i18n="stats.cities">مدينة في مصر</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>

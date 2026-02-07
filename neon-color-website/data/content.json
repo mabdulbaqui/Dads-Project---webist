@@ -6,18 +6,26 @@
   },
   "hero": {
     "ar": {
-      "headline": "نيون كلر | خبراء تصميم وتنفيذ واجهات الكلادينج الحديثة في مصر",
-      "subheadline": "شركة مصرية رائدة متخصصة في الدعاية والإعلان والديكور منذ 2010",
+      "headline": "خبراء تصميم وتنفيذ واجهات الكلادينج الحديثة في مصر",
+      "headline_accent": "خبراء تصميم وتنفيذ",
+      "headline_main": "واجهات الكلادينج الحديثة",
+      "headline_location": "في مصر",
+      "subheadline": "نفذنا أكثر من 500 مشروع تجاري وسكني بأعلى معايير الجودة والدقة الهندسية",
       "description": "نتخصص في المجال الهندسي وريادة في صناعة الحروف البارزة وجميع أعمال الكلادينج",
       "cta_primary": "احصل على استشارة مجانية",
-      "cta_secondary": "شاهد أعمالنا"
+      "cta_secondary": "خدماتنا",
+      "badge": "+14 سنة من الخبرة والإنجاز"
     },
     "en": {
-      "headline": "Neon Color - Leading Embossed Letters Manufacturing in Egypt",
-      "subheadline": "Egyptian company specializing in advertising, decoration and engineering since 2010",
+      "headline": "Expert Design & Execution of Modern Cladding Facades in Egypt",
+      "headline_accent": "Expert Design & Execution",
+      "headline_main": "Modern Cladding Facades",
+      "headline_location": "in Egypt",
+      "subheadline": "Over 500 commercial and residential projects completed with the highest standards of quality and engineering precision",
       "description": "Specializing in engineering field, leading in embossed letters manufacturing and cladding works",
       "cta_primary": "Get Free Consultation",
-      "cta_secondary": "View Our Work"
+      "cta_secondary": "Our Services",
+      "badge": "14+ Years of Experience & Achievement"
     }
   },
   "about": {
@@ -101,8 +109,22 @@
     }
   },
   "hero_badge": {
-    "ar": "🏆 +14 سنة خبرة",
-    "en": "🏆 14+ Years Experience"
+    "ar": "+14 سنة من الخبرة والإنجاز",
+    "en": "14+ Years of Experience & Achievement"
+  },
+  "hero_stats": {
+    "projects": {
+      "ar": "مشروع منفذ",
+      "en": "Projects Completed"
+    },
+    "clients": {
+      "ar": "عميل راضي",
+      "en": "Satisfied Clients"
+    },
+    "cities": {
+      "ar": "مدينة في مصر",
+      "en": "Cities in Egypt"
+    }
   },
   "why_choose_us": {
     "ar": {
