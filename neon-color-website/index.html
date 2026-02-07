@@ -83,39 +83,73 @@
        HEADER
        ===================================================== -->
     <header class="header" role="banner">
+      <!-- Brand Background Pattern -->
+      <div class="header-bg-pattern" aria-hidden="true">
+        <svg class="header-brand-text" viewBox="0 0 1920 80" preserveAspectRatio="xMidYMid slice">
+          <text x="5%" y="65" class="header-brand-ar">نيون كلر</text>
+          <text x="25%" y="55" class="header-brand-en">NEON COLOR</text>
+          <text x="50%" y="65" class="header-brand-ar">نيون كلر</text>
+          <text x="72%" y="55" class="header-brand-en">NEON COLOR</text>
+          <text x="92%" y="65" class="header-brand-ar">نيون</text>
+        </svg>
+      </div>
+
       <div class="header-container container">
         <!-- Logo -->
         <a href="#" class="logo" aria-label="Neon Color - Home">
-          <span style="color: var(--primary)">Neon</span><span>Color</span>
+          <span class="logo-icon">
+            <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
+              <rect x="2" y="2" width="36" height="36" rx="4" fill="currentColor" class="logo-bg"/>
+              <rect x="6" y="8" width="12" height="10" rx="1" fill="white" opacity="0.9"/>
+              <rect x="22" y="8" width="12" height="10" rx="1" fill="white" opacity="0.9"/>
+              <rect x="6" y="22" width="12" height="10" rx="1" fill="white" opacity="0.9"/>
+              <rect x="22" y="22" width="12" height="10" rx="1" fill="white" opacity="0.9"/>
+            </svg>
+          </span>
+          <span class="logo-text">
+            <span class="logo-primary">Neon</span><span class="logo-secondary">Color</span>
+          </span>
         </a>
 
         <!-- Navigation -->
         <nav class="nav" role="navigation" aria-label="Main navigation">
           <ul class="nav-list">
             <li>
-              <a href="#hero" class="nav-link active" data-nav="home"
-                >الرئيسية</a
-              >
+              <a href="#hero" class="nav-link active" data-nav="home">
+                <span class="nav-link-text">الرئيسية</span>
+                <span class="nav-link-indicator"></span>
+              </a>
             </li>
             <li>
-              <a href="#services" class="nav-link" data-nav="services"
-                >خدماتنا</a
-              >
+              <a href="#services" class="nav-link" data-nav="services">
+                <span class="nav-link-text">خدماتنا</span>
+                <span class="nav-link-indicator"></span>
+              </a>
             </li>
             <li>
-              <a href="#projects" class="nav-link" data-nav="projects"
-                >أعمالنا</a
-              >
+              <a href="#projects" class="nav-link" data-nav="projects">
+                <span class="nav-link-text">أعمالنا</span>
+                <span class="nav-link-indicator"></span>
+              </a>
             </li>
             <li>
-              <a href="#about" class="nav-link" data-nav="about">من نحن</a>
+              <a href="#about" class="nav-link" data-nav="about">
+                <span class="nav-link-text">من نحن</span>
+                <span class="nav-link-indicator"></span>
+              </a>
             </li>
             <li>
-              <a href="#contact" class="nav-link" data-nav="contact"
-                >تواصل معنا</a
-              >
+              <a href="#contact" class="nav-link" data-nav="contact">
+                <span class="nav-link-text">تواصل معنا</span>
+                <span class="nav-link-indicator"></span>
+              </a>
             </li>
           </ul>
+
+          <!-- CTA Button (Desktop) -->
+          <a href="#contact" class="header-cta-btn">
+            <span data-i18n="header.cta">احصل على عرض سعر</span>
+          </a>
 
           <!-- Language Switcher -->
           <button
@@ -123,20 +157,19 @@
             id="lang-switcher"
             aria-label="Switch language"
           >
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              aria-hidden="true"
-            >
-              <circle cx="12" cy="12" r="10" />
-              <path d="M2 12h20" />
-              <path
-                d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z"
-              />
-            </svg>
-            <span id="lang-switcher-text">EN</span>
+            <span class="lang-flag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M2 12h20" />
+                <path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z" />
+              </svg>
+            </span>
+            <span id="lang-switcher-text" class="lang-text">EN</span>
+            <span class="lang-arrow">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 9l6 6 6-6"/>
+              </svg>
+            </span>
           </button>
         </nav>
 
@@ -150,6 +183,11 @@
           <span></span>
           <span></span>
         </button>
+      </div>
+
+      <!-- Scroll Progress Indicator -->
+      <div class="header-progress">
+        <div class="header-progress-bar"></div>
       </div>
     </header>
 

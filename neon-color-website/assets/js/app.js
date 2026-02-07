@@ -35,28 +35,77 @@ const App = {
    */
   setupHeader() {
     const header = document.querySelector('.header');
+    const progressBar = document.querySelector('.header-progress-bar');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const sections = document.querySelectorAll('section[id]');
+
     if (!header) return;
-    
+
     let lastScroll = 0;
-    
-    window.addEventListener('scroll', () => {
+    let ticking = false;
+
+    // Throttled scroll handler for performance
+    const handleScroll = () => {
       const currentScroll = window.pageYOffset;
-      
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPercent = (currentScroll / docHeight) * 100;
+
+      // Update progress bar
+      if (progressBar) {
+        progressBar.style.width = `${Math.min(scrollPercent, 100)}%`;
+      }
+
       // Add shadow when scrolled
       if (currentScroll > 50) {
         header.classList.add('header-scrolled');
       } else {
         header.classList.remove('header-scrolled');
       }
-      
-      // Hide/show on scroll direction (optional)
-      // if (currentScroll > lastScroll && currentScroll > 300) {
-      //   header.style.transform = 'translateY(-100%)';
-      // } else {
-      //   header.style.transform = 'translateY(0)';
-      // }
-      
+
+      // Hide header on scroll down, show on scroll up
+      if (currentScroll > lastScroll && currentScroll > 400) {
+        header.classList.add('header-hidden');
+      } else {
+        header.classList.remove('header-hidden');
+      }
+
+      // Update active nav link based on current section
+      this.updateActiveSection(sections, navLinks, currentScroll);
+
       lastScroll = currentScroll;
+      ticking = false;
+    };
+
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        requestAnimationFrame(() => handleScroll());
+        ticking = true;
+      }
+    });
+
+    // Initial call to set correct state
+    handleScroll();
+  },
+
+  /**
+   * Update active navigation link based on scroll position
+   */
+  updateActiveSection(sections, navLinks, scrollPos) {
+    const headerHeight = document.querySelector('.header')?.offsetHeight || 80;
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - headerHeight - 100;
+      const sectionBottom = sectionTop + section.offsetHeight;
+      const sectionId = section.getAttribute('id');
+
+      if (scrollPos >= sectionTop && scrollPos < sectionBottom) {
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${sectionId}`) {
+            link.classList.add('active');
+          }
+        });
+      }
     });
   },
   

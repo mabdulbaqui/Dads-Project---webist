@@ -40,6 +40,10 @@ const LanguageSystem = {
       ar: { home: "الرئيسية", services: "خدماتنا", projects: "أعمالنا", about: "من نحن", contact: "تواصل معنا" },
       en: { home: "Home", services: "Services", projects: "Projects", about: "About", contact: "Contact" }
     },
+    header: {
+      ar: { cta: "احصل على عرض سعر" },
+      en: { cta: "Get a Quote" }
+    },
     contact: {
       labels: {
         ar: { phone: "الهاتف", whatsapp: "واتساب", email: "البريد الإلكتروني", address: "العنوان" },
