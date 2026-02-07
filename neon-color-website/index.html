@@ -51,7 +51,7 @@
     <link
       rel="icon"
       type="image/svg+xml"
-      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23b11226' width='100' height='100' rx='15'/><text x='50' y='65' font-size='50' font-weight='bold' fill='white' text-anchor='middle'>N</text></svg>"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23b11226' width='100' height='100' rx='18'/><path d='M28 75V25' stroke='white' stroke-width='9' stroke-linecap='round'/><path d='M28 25L72 75' stroke='white' stroke-width='9' stroke-linecap='round'/><path d='M72 25V75' stroke='white' stroke-width='9' stroke-linecap='round'/></svg>"
     />
     <link
       rel="apple-touch-icon"
@@ -98,16 +98,16 @@
         <!-- Logo -->
         <a href="#" class="logo" aria-label="Neon Color - Home">
           <span class="logo-icon">
-            <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
-              <rect x="2" y="2" width="36" height="36" rx="4" fill="currentColor" class="logo-bg"/>
-              <rect x="6" y="8" width="12" height="10" rx="1" fill="white" opacity="0.9"/>
-              <rect x="22" y="8" width="12" height="10" rx="1" fill="white" opacity="0.9"/>
-              <rect x="6" y="22" width="12" height="10" rx="1" fill="white" opacity="0.9"/>
-              <rect x="22" y="22" width="12" height="10" rx="1" fill="white" opacity="0.9"/>
+            <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
+              <rect x="2" y="2" width="36" height="36" rx="6" fill="currentColor" class="logo-bg"/>
+              <path d="M12 30V10" stroke="white" stroke-width="4" stroke-linecap="round"/>
+              <path d="M12 10L28 30" stroke="white" stroke-width="4" stroke-linecap="round"/>
+              <path d="M28 10V30" stroke="white" stroke-width="4" stroke-linecap="round"/>
             </svg>
           </span>
           <span class="logo-text">
-            <span class="logo-primary">Neon</span><span class="logo-secondary">Color</span>
+            <span class="logo-en"><span class="logo-primary">Neon</span><span class="logo-secondary">Color</span></span>
+            <span class="logo-ar">نيون كولر</span>
           </span>
         </a>
 
@@ -391,22 +391,51 @@
       <section id="about" class="about section">
         <div class="container about-container">
           <div class="about-content">
+            <div class="about-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+              </svg>
+              <span data-i18n="about.badge">منذ 2010</span>
+            </div>
             <h2 id="about-title">من نحن</h2>
             <p id="about-description">
               شركة مصرية متواجدة في مدينة القاهرة - جمهورية مصر العربية متخصصة في المجال الهندسي وريادة في صناعة الحروف البارزة وجميع أعمال الكلادينج. اشتهرت بتنفيذ المشاريع الكبرى في جميع أنحاء جمهورية مصر العربية.
             </p>
+            <div class="about-features">
+              <div class="about-feature">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span data-i18n="about.feature1">وكلاء معتمدون لأكبر شركات الكلادينج</span>
+              </div>
+              <div class="about-feature">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span data-i18n="about.feature2">فريق هندسي متخصص بأعلى المعايير</span>
+              </div>
+              <div class="about-feature">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span data-i18n="about.feature3">تغطية شاملة في جميع أنحاء مصر</span>
+              </div>
+            </div>
           </div>
 
           <div class="stats-grid">
             <div class="stat-item">
+              <div class="stat-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
               <div id="stat-years" class="stat-number">14+</div>
               <div id="stat-years-label" class="stat-label">سنة من الخبرة</div>
             </div>
             <div class="stat-item">
+              <div class="stat-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              </div>
               <div id="stat-clients" class="stat-number">300+</div>
               <div id="stat-clients-label" class="stat-label">عميل راضي</div>
             </div>
             <div class="stat-item">
+              <div class="stat-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+              </div>
               <div id="stat-projects" class="stat-number">500+</div>
               <div id="stat-projects-label" class="stat-label">مشروع منفذ</div>
             </div>
@@ -616,11 +645,19 @@
         <div class="footer-grid">
           <!-- Brand Column -->
           <div class="footer-brand">
-            <div class="logo">
-              <span style="color: var(--primary)">Neon</span
-              ><span style="color: white">Color</span>
+            <div class="footer-logo">
+              <svg class="footer-logo-icon" width="44" height="44" viewBox="0 0 40 40" fill="none">
+                <rect x="2" y="2" width="36" height="36" rx="6" fill="#b11226"/>
+                <path d="M12 30V10" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                <path d="M12 10L28 30" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                <path d="M28 10V30" stroke="white" stroke-width="4" stroke-linecap="round"/>
+              </svg>
+              <div class="footer-logo-text">
+                <span class="footer-logo-en"><span style="color: var(--primary)">Neon</span><span style="color: white">Color</span></span>
+                <span class="footer-logo-ar">نيون كولر</span>
+              </div>
             </div>
-            <p>متخصصون في تصميم وتنفيذ اللافتات والديكور منذ 2010</p>
+            <p class="footer-tagline-text">متخصصون في تصميم وتنفيذ اللافتات والديكور منذ 2010</p>
 
             <!-- Social Links -->
             <div class="social-links">

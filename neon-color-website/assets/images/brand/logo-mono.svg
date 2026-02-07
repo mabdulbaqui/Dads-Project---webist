@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" fill="none">
+  <!-- Neon Color - Monochrome Logo (for black & white printing) -->
+
+  <!-- Icon -->
+  <g>
+    <rect x="4" y="4" width="72" height="72" rx="10" fill="#333333"/>
+    <path d="M22 58V22" stroke="white" stroke-width="7" stroke-linecap="round"/>
+    <path d="M22 22L58 58" stroke="white" stroke-width="7" stroke-linecap="round"/>
+    <path d="M58 22V58" stroke="white" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Text Block -->
+  <g>
+    <text x="92" y="34" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="26" font-weight="700" fill="#333333" direction="rtl" unicode-bidi="bidi-override">نيون كولر</text>
+    <text x="92" y="58" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#333333" letter-spacing="0.08em">NEON COLOR</text>
+    <text x="92" y="72" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#666666" letter-spacing="0.02em">Advertising &amp; Decoration | الدعاية والإعلان والديكور</text>
+  </g>
+</svg>
