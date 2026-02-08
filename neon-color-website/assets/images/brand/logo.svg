@@ -1,22 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" fill="none">
-  <!-- Neon Color - Professional Corporate Logo -->
-  <!-- Horizontal Layout: Icon + Bilingual Text -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 90" fill="none">
+  <!-- Neon Color - Luxurious Corporate Logo -->
+  <!-- Horizontal Layout: Ornate Icon + Calligraphic Bilingual Text -->
 
-  <!-- Icon: Stylized "N" in rounded square (neon tube aesthetic) -->
+  <!-- Icon with decorative frame -->
   <g>
-    <rect x="4" y="4" width="72" height="72" rx="10" fill="#b11226"/>
-    <path d="M22 58V22" stroke="white" stroke-width="7" stroke-linecap="round"/>
-    <path d="M22 22L58 58" stroke="white" stroke-width="7" stroke-linecap="round"/>
-    <path d="M58 22V58" stroke="white" stroke-width="7" stroke-linecap="round"/>
+    <!-- Outer decorative border -->
+    <rect x="2" y="2" width="76" height="76" rx="12" stroke="#b11226" stroke-width="1.5" fill="none" opacity="0.3"/>
+    <!-- Main icon background -->
+    <rect x="6" y="6" width="68" height="68" rx="10" fill="#b11226"/>
+    <!-- Inner highlight -->
+    <rect x="6" y="6" width="68" height="68" rx="10" fill="url(#iconGrad)"/>
+    <!-- Stylized N with neon tube aesthetic -->
+    <path d="M24 56V24" stroke="white" stroke-width="6.5" stroke-linecap="round"/>
+    <path d="M24 24L56 56" stroke="white" stroke-width="6.5" stroke-linecap="round"/>
+    <path d="M56 24V56" stroke="white" stroke-width="6.5" stroke-linecap="round"/>
+    <!-- Corner ornament dots -->
+    <circle cx="14" cy="14" r="2" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="66" cy="14" r="2" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="14" cy="66" r="2" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="66" cy="66" r="2" fill="rgba(255,255,255,0.3)"/>
   </g>
+
+  <!-- Ornate divider line between icon and text -->
+  <line x1="90" y1="18" x2="90" y2="62" stroke="#b11226" stroke-width="0.5" opacity="0.4"/>
+  <circle cx="90" cy="15" r="1.5" fill="#b11226" opacity="0.4"/>
+  <circle cx="90" cy="65" r="1.5" fill="#b11226" opacity="0.4"/>
 
   <!-- Text Block -->
   <g>
-    <!-- Arabic Company Name -->
-    <text x="92" y="34" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="26" font-weight="700" fill="#333333" direction="rtl" unicode-bidi="bidi-override">نيون كلر</text>
-    <!-- English Company Name -->
-    <text x="92" y="58" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#666666" letter-spacing="0.08em">NEON COLOR</text>
+    <!-- Arabic Company Name (ornate style) -->
+    <text x="102" y="36" font-family="'Aref Ruqaa', Tahoma, serif" font-size="28" font-weight="700" fill="#1a0004" direction="rtl" unicode-bidi="bidi-override">نيون كلر</text>
+    <!-- English Company Name (elegant serif) -->
+    <text x="102" y="58" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="400" fill="#666666" letter-spacing="0.2em">NEON COLOR</text>
+    <!-- Decorative line under English name -->
+    <line x1="102" y1="62" x2="210" y2="62" stroke="#b11226" stroke-width="0.5" opacity="0.3"/>
     <!-- Activity Subtitle -->
-    <text x="92" y="72" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#999999" letter-spacing="0.02em">Advertising &amp; Decoration | الدعاية والإعلان والديكور</text>
+    <text x="102" y="76" font-family="'Amiri', Tahoma, serif" font-size="10" font-weight="400" fill="#999999" letter-spacing="0.02em" font-style="italic">Advertising &amp; Decoration | الدعاية والإعلان والديكور</text>
   </g>
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="iconGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.1)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.1)"/>
+    </linearGradient>
+  </defs>
 </svg>

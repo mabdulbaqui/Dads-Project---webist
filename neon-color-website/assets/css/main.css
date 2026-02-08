@@ -804,7 +804,7 @@ p {
 }
 
 /* =====================================================
-   HERO SECTION - Premium Modern Design
+   HERO SECTION - Luxurious with Large-Scale Logo
    ===================================================== */
 .hero {
   min-height: 100vh;
@@ -812,12 +812,13 @@ p {
   align-items: center;
   background: linear-gradient(
     160deg,
-    #d41b35 0%,
-    #c41830 15%,
-    var(--primary) 35%,
-    var(--primary-dark) 65%,
-    #6d0a15 85%,
-    #4a0710 100%
+    #2a0008 0%,
+    #4a0710 20%,
+    var(--primary-dark) 40%,
+    var(--primary) 55%,
+    var(--primary-dark) 70%,
+    #3d0610 85%,
+    #1a0004 100%
   );
   color: var(--white);
   padding-top: 100px;
@@ -826,7 +827,7 @@ p {
   overflow: hidden;
 }
 
-/* Premium Branded Background Container */
+/* Premium Background Container */
 .hero-bg-pattern {
   position: absolute;
   top: 0;
@@ -837,64 +838,8 @@ p {
   pointer-events: none;
 }
 
-/* ===== Brand Text Layer ===== */
-.hero-brand-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-}
-
-.brand-text-ar,
-.brand-text-en {
-  fill: rgba(255, 255, 255, 0.03);
-  font-weight: 800;
-}
-
-.brand-text-ar {
-  font-family: "Cairo", "Tajawal", sans-serif;
-}
-
-.brand-text-en {
-  font-family: "Inter", "Arial Black", sans-serif;
-  letter-spacing: 0.15em;
-}
-
-.brand-text-xl { font-size: 180px; }
-.brand-text-lg { font-size: 140px; }
-.brand-text-md { font-size: 80px; }
-.brand-text-sm { font-size: 50px; }
-.brand-text-xs { font-size: 35px; }
-
-/* Animate brand text */
-.hero-brand-text text {
-  animation: brandFloat 20s ease-in-out infinite;
-}
-
-.hero-brand-text text:nth-child(2) { animation-delay: -3s; }
-.hero-brand-text text:nth-child(3) { animation-delay: -6s; }
-.hero-brand-text text:nth-child(4) { animation-delay: -9s; }
-.hero-brand-text text:nth-child(5) { animation-delay: -12s; }
-.hero-brand-text text:nth-child(6) { animation-delay: -15s; }
-.hero-brand-text text:nth-child(7) { animation-delay: -2s; }
-.hero-brand-text text:nth-child(8) { animation-delay: -7s; }
-.hero-brand-text text:nth-child(9) { animation-delay: -11s; }
-
-@keyframes brandFloat {
-  0%, 100% {
-    opacity: 0.03;
-    transform: translateY(0);
-  }
-  50% {
-    opacity: 0.06;
-    transform: translateY(-10px);
-  }
-}
-
-/* ===== Geometric Panels Layer ===== */
-.hero-panels {
+/* ===== Arabesque / Islamic Geometric Layer ===== */
+.hero-arabesque {
   position: absolute;
   top: 0;
   left: 0;
@@ -902,121 +847,64 @@ p {
   height: 100%;
 }
 
-.panel-group rect {
-  fill: rgba(255, 255, 255, 0.02);
-  stroke: rgba(255, 255, 255, 0.04);
-  stroke-width: 1;
-}
-
-.panel-group rect:nth-child(1) {
-  fill: rgba(255, 255, 255, 0.03);
-}
-
-.panel-left {
-  animation: panelSlideLeft 25s ease-in-out infinite;
-}
-
-.panel-right {
-  animation: panelSlideRight 25s ease-in-out infinite;
-}
-
-@keyframes panelSlideLeft {
-  0%, 100% { transform: translateX(0) translateY(0); }
-  50% { transform: translateX(20px) translateY(-30px); }
-}
-
-@keyframes panelSlideRight {
-  0%, 100% { transform: translateX(0) translateY(0); }
-  50% { transform: translateX(-20px) translateY(30px); }
-}
-
-/* Floating panels */
-.floating-panel {
-  fill: rgba(255, 255, 255, 0.025);
-  stroke: rgba(255, 255, 255, 0.05);
-  stroke-width: 1;
-}
-
-.fp-1 { animation: floatPanel1 18s ease-in-out infinite; }
-.fp-2 { animation: floatPanel2 22s ease-in-out infinite; }
-.fp-3 { animation: floatPanel3 20s ease-in-out infinite; }
-.fp-4 { animation: floatPanel4 24s ease-in-out infinite; }
-
-@keyframes floatPanel1 {
-  0%, 100% { transform: translate(0, 0) rotate(0deg); opacity: 0.025; }
-  50% { transform: translate(30px, 40px) rotate(3deg); opacity: 0.05; }
-}
-
-@keyframes floatPanel2 {
-  0%, 100% { transform: translate(0, 0) rotate(0deg); opacity: 0.025; }
-  50% { transform: translate(-40px, -30px) rotate(-2deg); opacity: 0.04; }
-}
-
-@keyframes floatPanel3 {
-  0%, 100% { transform: translate(0, 0) rotate(0deg); opacity: 0.025; }
-  50% { transform: translate(20px, -50px) rotate(2deg); opacity: 0.045; }
-}
-
-@keyframes floatPanel4 {
-  0%, 100% { transform: translate(0, 0) rotate(0deg); opacity: 0.025; }
-  50% { transform: translate(-30px, 20px) rotate(-3deg); opacity: 0.035; }
-}
-
-/* ===== Decorative Elements Layer ===== */
-.hero-decorative {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.corner-accent {
-  fill: rgba(255, 255, 255, 0.04);
-}
-
-.deco-line {
-  stroke: rgba(255, 255, 255, 0.03);
-  stroke-width: 2;
-  stroke-linecap: round;
-}
-
-.deco-circle {
+.arabesque-corner path {
   fill: none;
-  stroke: rgba(255, 255, 255, 0.025);
+  stroke: rgba(255, 200, 160, 0.06);
   stroke-width: 1.5;
-  animation: pulseCircle 8s ease-in-out infinite;
 }
 
-.deco-circle:nth-child(2) { animation-delay: -2s; }
-.deco-circle:nth-child(3) { animation-delay: -4s; }
-.deco-circle:nth-child(4) { animation-delay: -6s; }
-
-@keyframes pulseCircle {
-  0%, 100% {
-    opacity: 0.025;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.05;
-    transform: scale(1.1);
-  }
+.arabesque-corner circle {
+  fill: rgba(255, 200, 160, 0.08);
 }
 
-.deco-diamond {
-  fill: rgba(255, 255, 255, 0.02);
-  stroke: rgba(255, 255, 255, 0.04);
+.arabesque-tl { animation: arabesqueGlow 8s ease-in-out infinite; }
+.arabesque-tr { animation: arabesqueGlow 8s ease-in-out infinite 2s; }
+.arabesque-bl { animation: arabesqueGlow 8s ease-in-out infinite 4s; }
+.arabesque-br { animation: arabesqueGlow 8s ease-in-out infinite 6s; }
+
+@keyframes arabesqueGlow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* Islamic 8-pointed stars */
+.islamic-star polygon {
+  fill: none;
+  stroke: rgba(255, 215, 0, 0.06);
   stroke-width: 1;
-  animation: rotateDiamond 15s linear infinite;
 }
 
-.deco-diamond:nth-child(2) { animation-delay: -5s; }
-.deco-diamond:nth-child(3) { animation-delay: -10s; }
+.star-1 { animation: starSpin 30s linear infinite, starPulse 6s ease-in-out infinite; }
+.star-2 { animation: starSpin 35s linear infinite reverse, starPulse 6s ease-in-out infinite 1.5s; }
+.star-3 { animation: starSpin 40s linear infinite, starPulse 6s ease-in-out infinite 3s; }
+.star-4 { animation: starSpin 25s linear infinite reverse, starPulse 6s ease-in-out infinite 4.5s; }
 
-@keyframes rotateDiamond {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+@keyframes starSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
+
+@keyframes starPulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+/* Ornate border lines */
+.ornate-line {
+  stroke: rgba(255, 215, 0, 0.04);
+  stroke-width: 1;
+  stroke-dasharray: 8 4;
+}
+
+/* Background calligraphy */
+.bg-calligraphy {
+  font-family: "Aref Ruqaa", "Amiri", serif;
+  fill: rgba(255, 255, 255, 0.025);
+  font-weight: 700;
+}
+
+.bg-calligraphy-lg { font-size: 120px; }
+.bg-calligraphy-md { font-size: 80px; }
 
 /* ===== Grid Overlay ===== */
 .hero-grid-overlay {
@@ -1026,8 +914,8 @@ p {
   right: 0;
   bottom: 0;
   background-image:
-    linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
+    linear-gradient(rgba(255,215,0,0.008) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,215,0,0.008) 1px, transparent 1px);
   background-size: 60px 60px;
   animation: gridMove 30s linear infinite;
 }
@@ -1037,7 +925,7 @@ p {
   100% { transform: translate(60px, 60px); }
 }
 
-/* Radial gradient overlays for depth */
+/* Radial gradient overlays for depth & luxury */
 .hero::before {
   content: "";
   position: absolute;
@@ -1046,14 +934,15 @@ p {
   right: 0;
   bottom: 0;
   background:
-    radial-gradient(ellipse at 10% 90%, rgba(255,200,200,0.08) 0%, transparent 50%),
-    radial-gradient(ellipse at 90% 10%, rgba(255,220,220,0.06) 0%, transparent 45%),
-    radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0.1) 0%, transparent 70%);
+    radial-gradient(ellipse at 50% 30%, rgba(255,215,0,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 10% 90%, rgba(255,200,200,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 90% 10%, rgba(255,220,220,0.04) 0%, transparent 45%),
+    radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0.15) 0%, transparent 70%);
   z-index: 0;
   pointer-events: none;
 }
 
-/* Vignette effect */
+/* Vignette effect - deeper for luxury */
 .hero::after {
   content: "";
   position: absolute;
@@ -1061,7 +950,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.3) 100%);
+  background: radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.45) 100%);
   z-index: 0;
   pointer-events: none;
 }
@@ -1083,16 +972,16 @@ p {
   max-width: 800px;
 }
 
-/* Trust Badge - Premium Style */
+/* Trust Badge - Luxury Gold Accent */
 .hero-badge {
   display: inline-flex;
   align-items: center;
   gap: var(--space-sm);
   padding: var(--space-sm) var(--space-lg);
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 215, 0, 0.08);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 215, 0, 0.2);
   border-radius: var(--radius-full);
   font-size: var(--font-size-sm);
   font-weight: 600;
@@ -1118,37 +1007,167 @@ p {
   }
 }
 
-/* Hero Title - Multi-line with hierarchy */
+/* ===== Large-Scale Logo Showcase ===== */
+.hero-logo-showcase {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-xl);
+  animation: logoReveal 1s ease-out 0.2s backwards;
+}
+
+.hero-logo-icon {
+  width: clamp(100px, 18vw, 150px);
+  height: clamp(100px, 18vw, 150px);
+  filter: drop-shadow(0 10px 40px rgba(177, 18, 38, 0.5))
+          drop-shadow(0 0 60px rgba(177, 18, 38, 0.2));
+  position: relative;
+  z-index: 2;
+}
+
+/* Decorative ring around logo */
+.logo-ring {
+  position: absolute;
+  width: clamp(160px, 28vw, 240px);
+  height: clamp(160px, 28vw, 240px);
+  z-index: 1;
+  animation: ringRotate 40s linear infinite;
+}
+
+.logo-ring-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.ring-outer {
+  fill: none;
+  stroke: rgba(255, 215, 0, 0.12);
+  stroke-width: 1;
+  stroke-dasharray: 12 6 3 6;
+}
+
+.ring-inner {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.08);
+  stroke-width: 0.5;
+}
+
+.ring-dot {
+  fill: rgba(255, 215, 0, 0.25);
+}
+
+@keyframes ringRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes logoReveal {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ===== Company Name in Ornate Arabic Calligraphy ===== */
+.hero-brand-name {
+  margin-bottom: var(--space-2xl);
+  animation: fadeInUp 0.8s ease-out 0.4s backwards;
+}
+
+.hero-company-ar {
+  font-family: "Aref Ruqaa", "Amiri", "Reem Kufi", serif;
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: 0.04em;
+  text-shadow:
+    0 2px 20px rgba(255, 215, 0, 0.15),
+    0 4px 40px rgba(0, 0, 0, 0.3);
+  margin-bottom: var(--space-xs);
+  line-height: 1.2;
+}
+
+.hero-company-en {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-weight: 400;
+  letter-spacing: 0.35em;
+  color: rgba(255, 215, 0, 0.7);
+  text-transform: uppercase;
+  margin-bottom: var(--space-lg);
+}
+
+/* Ornate divider */
+.hero-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.divider-line {
+  width: 80px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.4), transparent);
+}
+
+.divider-diamond {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 215, 0, 0.5);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
+.hero-tagline {
+  font-family: "Amiri", "Aref Ruqaa", serif;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+  letter-spacing: 0.02em;
+  margin-bottom: 0;
+}
+
+/* Hero Title - Below logo, with hierarchy */
 .hero-title {
   color: var(--white);
   margin-bottom: var(--space-xl);
   line-height: 1.3;
-  animation: fadeInUp 0.8s ease-out 0.2s backwards;
+  animation: fadeInUp 0.8s ease-out 0.6s backwards;
 }
 
 .hero-title-accent {
   display: block;
-  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-family: "Reem Kufi", "Cairo", sans-serif;
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
   font-weight: 500;
-  opacity: 0.9;
+  opacity: 0.85;
   margin-bottom: var(--space-sm);
   letter-spacing: 0.02em;
 }
 
 .hero-title-main {
   display: block;
-  font-size: clamp(2.25rem, 6vw, 4rem);
+  font-family: "Cairo", sans-serif;
+  font-size: clamp(1.8rem, 5vw, 3rem);
   font-weight: 800;
-  line-height: 1.15;
+  line-height: 1.2;
   margin-bottom: var(--space-xs);
-  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
 }
 
 .hero-title-location {
   display: block;
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-family: "Reem Kufi", "Cairo", sans-serif;
+  font-size: clamp(1.2rem, 3vw, 2rem);
   font-weight: 600;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 @keyframes fadeInUp {
@@ -1164,48 +1183,51 @@ p {
 
 /* Subtitle */
 .hero-subtitle {
-  font-size: clamp(1rem, 2.5vw, 1.35rem);
+  font-size: clamp(0.95rem, 2vw, 1.2rem);
   font-weight: 400;
-  opacity: 0.85;
+  opacity: 0.75;
   margin-bottom: var(--space-2xl);
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.7;
-  animation: fadeInUp 0.8s ease-out 0.4s backwards;
+  line-height: 1.8;
+  animation: fadeInUp 0.8s ease-out 0.8s backwards;
 }
 
-/* CTA Buttons */
+/* CTA Buttons - Luxury style */
 .hero-cta {
   display: flex;
   gap: var(--space-lg);
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: var(--space-3xl);
-  animation: fadeInUp 0.8s ease-out 0.6s backwards;
+  animation: fadeInUp 0.8s ease-out 1s backwards;
 }
 
-/* Primary CTA Button */
+/* Primary CTA Button - Gold accent */
 .btn-hero-primary {
-  background: var(--white);
-  color: var(--primary);
-  border: 2px solid var(--white);
+  background: linear-gradient(135deg, #ffd700 0%, #daa520 50%, #b8860b 100%);
+  color: #1a0004;
+  border: 2px solid rgba(255, 215, 0, 0.6);
   font-weight: 700;
   padding: var(--space-lg) var(--space-2xl);
   font-size: var(--font-size-lg);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 30px rgba(255, 215, 0, 0.2),
+              inset 0 1px 0 rgba(255, 255, 255, 0.3);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-hero-primary:hover {
-  background: transparent;
-  color: var(--white);
+  background: linear-gradient(135deg, #ffe44d 0%, #ffd700 50%, #daa520 100%);
+  color: #1a0004;
   transform: translateY(-3px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 12px 40px rgba(255, 215, 0, 0.3),
+              0 0 20px rgba(255, 215, 0, 0.1);
 }
 
 .btn-hero-primary svg {
   transition: transform 0.3s ease;
+  stroke: #1a0004;
 }
 
 .rtl .btn-hero-primary svg {
@@ -1224,7 +1246,7 @@ p {
 .btn-hero-outline {
   background: transparent;
   color: var(--white);
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.35);
   font-weight: 600;
   padding: var(--space-lg) var(--space-2xl);
   font-size: var(--font-size-lg);
@@ -1232,25 +1254,25 @@ p {
 }
 
 .btn-hero-outline:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: var(--white);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.6);
   color: var(--white);
   transform: translateY(-2px);
 }
 
-/* Trust Indicators */
+/* Trust Indicators - Luxury glass */
 .hero-trust-indicators {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: var(--space-xl);
   padding: var(--space-lg) var(--space-2xl);
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 215, 0, 0.1);
   border-radius: var(--radius-lg);
-  animation: fadeInUp 0.8s ease-out 0.8s backwards;
+  animation: fadeInUp 0.8s ease-out 1.2s backwards;
 }
 
 .trust-item {
@@ -1263,19 +1285,20 @@ p {
 .trust-value {
   font-size: var(--font-size-2xl);
   font-weight: 800;
-  color: var(--white);
+  color: rgba(255, 215, 0, 0.9);
+  font-family: "Playfair Display", serif;
 }
 
 .trust-label {
   font-size: var(--font-size-sm);
   font-weight: 500;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .trust-divider {
   width: 1px;
   height: 40px;
-  background: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(to bottom, transparent, rgba(255, 215, 0, 0.3), transparent);
 }
 
 /* =====================================================
@@ -2003,21 +2026,12 @@ p {
   }
 
   /* Hero background adjustments for tablet */
-  .hero-brand-text {
+  .hero-arabesque {
     opacity: 0.7;
   }
 
-  .brand-text-xl { font-size: 120px; }
-  .brand-text-lg { font-size: 90px; }
-  .brand-text-md { font-size: 60px; }
-
-  .hero-panels {
-    opacity: 0.8;
-  }
-
-  .hero-decorative {
-    opacity: 0.7;
-  }
+  .bg-calligraphy-lg { font-size: 80px; }
+  .bg-calligraphy-md { font-size: 55px; }
 
   .about-container {
     grid-template-columns: 1fr;
@@ -2213,20 +2227,47 @@ p {
     margin-bottom: var(--space-lg);
   }
 
-  .hero-title-accent {
+  .hero-logo-icon {
+    width: 90px;
+    height: 90px;
+  }
+
+  .logo-ring {
+    width: 140px;
+    height: 140px;
+  }
+
+  .hero-company-ar {
+    font-size: 2.5rem;
+  }
+
+  .hero-company-en {
     font-size: 1rem;
+    letter-spacing: 0.25em;
+  }
+
+  .divider-line {
+    width: 50px;
+  }
+
+  .hero-tagline {
+    font-size: 0.9rem;
+  }
+
+  .hero-title-accent {
+    font-size: 0.95rem;
   }
 
   .hero-title-main {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .hero-title-location {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .hero-subtitle {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     margin-bottom: var(--space-xl);
   }
 
@@ -2266,27 +2307,16 @@ p {
   }
 
   /* Hero background adjustments for mobile */
-  .hero-brand-text {
-    opacity: 0.5;
-  }
-
-  .brand-text-xl { font-size: 80px; }
-  .brand-text-lg { font-size: 60px; }
-  .brand-text-md { font-size: 45px; }
-  .brand-text-sm { font-size: 30px; }
-  .brand-text-xs { font-size: 22px; }
-
-  .hero-panels {
-    opacity: 0.5;
-  }
-
-  .hero-decorative {
+  .hero-arabesque {
     opacity: 0.4;
   }
 
+  .bg-calligraphy-lg { font-size: 50px; }
+  .bg-calligraphy-md { font-size: 35px; }
+
   .hero-grid-overlay {
     background-size: 40px 40px;
-    opacity: 0.7;
+    opacity: 0.5;
   }
 
   .btn-lg {
