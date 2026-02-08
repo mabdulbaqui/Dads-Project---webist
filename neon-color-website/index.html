@@ -111,8 +111,57 @@
           </span>
         </a>
 
+        <!-- Mobile Menu Button -->
+        <div class="header-actions">
+          <!-- Language Switcher (visible on all sizes) -->
+          <button
+            class="lang-switcher"
+            id="lang-switcher"
+            aria-label="Switch language"
+          >
+            <span class="lang-flag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M2 12h20" />
+                <path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z" />
+              </svg>
+            </span>
+            <span id="lang-switcher-text" class="lang-text">EN</span>
+          </button>
+
+          <!-- Hamburger Button (mobile only) -->
+          <button
+            class="mobile-menu-btn"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
         <!-- Navigation -->
         <nav class="nav" role="navigation" aria-label="Main navigation">
+          <!-- Mobile Nav Header (visible only on mobile) -->
+          <div class="mobile-nav-header">
+            <a href="#" class="mobile-nav-brand" aria-label="Neon Color">
+              <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
+                <rect x="2" y="2" width="36" height="36" rx="6" fill="#b11226"/>
+                <path d="M12 30V10" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                <path d="M12 10L28 30" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                <path d="M28 10V30" stroke="white" stroke-width="4" stroke-linecap="round"/>
+              </svg>
+              <span>نيون كلر</span>
+            </a>
+            <button class="mobile-nav-close" aria-label="Close menu">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <path d="M18 6L6 18"/>
+                <path d="M6 6l12 12"/>
+              </svg>
+            </button>
+          </div>
+
           <ul class="nav-list">
             <li>
               <a href="#hero" class="nav-link active" data-nav="home">
@@ -146,43 +195,14 @@
             </li>
           </ul>
 
-          <!-- CTA Button (Desktop) -->
+          <!-- CTA Button (Desktop: inline / Mobile: bottom of nav) -->
           <a href="#contact" class="header-cta-btn">
             <span data-i18n="header.cta">احصل على عرض سعر</span>
           </a>
-
-          <!-- Language Switcher -->
-          <button
-            class="lang-switcher"
-            id="lang-switcher"
-            aria-label="Switch language"
-          >
-            <span class="lang-flag">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <circle cx="12" cy="12" r="10" />
-                <path d="M2 12h20" />
-                <path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z" />
-              </svg>
-            </span>
-            <span id="lang-switcher-text" class="lang-text">EN</span>
-            <span class="lang-arrow">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M6 9l6 6 6-6"/>
-              </svg>
-            </span>
-          </button>
         </nav>
 
-        <!-- Mobile Menu Button -->
-        <button
-          class="mobile-menu-btn"
-          aria-label="Toggle menu"
-          aria-expanded="false"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+        <!-- Mobile Nav Backdrop Overlay -->
+        <div class="mobile-nav-overlay" aria-hidden="true"></div>
       </div>
 
       <!-- Scroll Progress Indicator -->

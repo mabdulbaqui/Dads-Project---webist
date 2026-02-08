@@ -29,7 +29,7 @@ body.rtl li {
    HEADER & NAVIGATION RTL
    ===================================================== */
 body.rtl .header-container {
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 body.rtl .header-bg-pattern {
@@ -86,10 +86,6 @@ body.rtl .about-feature {
   flex-direction: row-reverse;
 }
 
-body.rtl .nav {
-  flex-direction: row-reverse;
-}
-
 body.rtl .nav-list {
   flex-direction: row-reverse;
 }
@@ -102,10 +98,6 @@ body.rtl .lang-switcher {
   flex-direction: row-reverse;
 }
 
-body.rtl .lang-arrow svg {
-  transform: scaleX(-1);
-}
-
 body.rtl .header-cta-btn {
   flex-direction: row-reverse;
 }
@@ -114,17 +106,14 @@ body.rtl .header-cta-btn {
 @media (max-width: 768px) {
   body.rtl .nav {
     flex-direction: column;
+    right: auto;
+    left: 0;
     transform: translateX(-100%);
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.15);
   }
 
   body.rtl .nav.active {
     transform: translateX(0);
-  }
-
-  body.rtl .nav::before {
-    content: "نيون كلر";
-    font-family: "Cairo", sans-serif;
-    transform: translate(-50%, -50%) rotate(15deg);
   }
 
   body.rtl .nav-list {
@@ -132,8 +121,26 @@ body.rtl .header-cta-btn {
   }
 
   body.rtl .nav-link {
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-align: right;
+  }
+
+  body.rtl .nav-link.active {
+    border-right: none;
+    border-left: 3px solid var(--primary);
+  }
+
+  body.rtl .mobile-nav-header {
+    flex-direction: row-reverse;
+  }
+
+  body.rtl .mobile-nav-brand {
+    flex-direction: row-reverse;
+  }
+
+  body.rtl .header-actions {
+    flex-direction: row-reverse;
   }
 }
 
@@ -426,22 +433,13 @@ body.rtl::-webkit-scrollbar-thumb:hover {
 /* =====================================================
    MOBILE MENU RTL
    ===================================================== */
-body.rtl .mobile-menu-btn {
-  order: -1;
-}
-
 @media (max-width: 768px) {
   body.rtl .nav {
-    text-align: center;
+    text-align: right;
   }
 }
 
-/* =====================================================
-   LANGUAGE SWITCHER RTL
-   ===================================================== */
-body.rtl .lang-switcher {
-  flex-direction: row-reverse;
-}
+/* Language switcher RTL already handled above */
 
 /* =====================================================
    GRID LAYOUTS RTL
@@ -563,6 +561,8 @@ body.ltr .header-cta-btn {
 
 @media (max-width: 768px) {
   body.ltr .nav {
+    right: 0;
+    left: auto;
     transform: translateX(100%);
   }
 
@@ -570,9 +570,15 @@ body.ltr .header-cta-btn {
     transform: translateX(0);
   }
 
-  body.ltr .nav::before {
-    content: "NEON COLOR";
-    font-family: "Inter", sans-serif;
+  body.ltr .nav-link {
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  body.ltr .nav-link.active {
+    border-right: none;
+    border-left: 3px solid var(--primary);
   }
 }
 
@@ -798,14 +804,10 @@ body {
    ===================================================== */
 
 @media (max-width: 768px) {
-  body.ltr .mobile-menu-btn {
-    order: 0;
-  }
-  
   body.ltr .nav {
-    text-align: center;
+    text-align: left;
   }
-  
+
   body.ltr .whatsapp-float {
     right: 20px;
   }

@@ -115,32 +115,54 @@ const App = {
   setupMobileMenu() {
     const menuBtn = document.querySelector('.mobile-menu-btn');
     const nav = document.querySelector('.nav');
-    
+    const overlay = document.querySelector('.mobile-nav-overlay');
+    const closeBtn = document.querySelector('.mobile-nav-close');
+
     if (!menuBtn || !nav) return;
-    
+
+    const openMenu = () => {
+      menuBtn.classList.add('active');
+      menuBtn.setAttribute('aria-expanded', 'true');
+      nav.classList.add('active');
+      if (overlay) overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    };
+
+    const closeMenu = () => {
+      menuBtn.classList.remove('active');
+      menuBtn.setAttribute('aria-expanded', 'false');
+      nav.classList.remove('active');
+      if (overlay) overlay.classList.remove('active');
+      document.body.style.overflow = '';
+    };
+
     menuBtn.addEventListener('click', () => {
-      menuBtn.classList.toggle('active');
-      nav.classList.toggle('active');
-      
-      // Prevent body scroll when menu is open
-      document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
+      if (nav.classList.contains('active')) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
     });
-    
-    // Close menu when clicking nav links
-    nav.querySelectorAll('.nav-link').forEach(link => {
-      link.addEventListener('click', () => {
-        menuBtn.classList.remove('active');
-        nav.classList.remove('active');
-        document.body.style.overflow = '';
-      });
+
+    // Close button inside mobile nav
+    if (closeBtn) {
+      closeBtn.addEventListener('click', closeMenu);
+    }
+
+    // Close on overlay click
+    if (overlay) {
+      overlay.addEventListener('click', closeMenu);
+    }
+
+    // Close menu when clicking nav links or CTA
+    nav.querySelectorAll('.nav-link, .header-cta-btn').forEach(link => {
+      link.addEventListener('click', closeMenu);
     });
-    
-    // Close menu when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!nav.contains(e.target) && !menuBtn.contains(e.target)) {
-        menuBtn.classList.remove('active');
-        nav.classList.remove('active');
-        document.body.style.overflow = '';
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && nav.classList.contains('active')) {
+        closeMenu();
       }
     });
   },
